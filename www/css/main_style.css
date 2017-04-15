@@ -49,31 +49,31 @@ nav ul li a:active img{
 
 
 
-.menu_button_1{
+.profile{
     background-color: #dd3736;
 }
-.menu_button_2{
+.cards{
     background-color: #b73332;
     margin-left: 50%;
 }
 
-.menu_button_3{
+.trade{
     background-color: #b73332;
     margin-top: 33.3333333333vh;
 }
 
-.menu_button_4{
+.progress{
     background-color: #942c2d;
     margin-top: 33.3333333333vh;
     margin-left: 50%;
 }
 
-.menu_button_5{
+.friends{
     background-color: #942c2d;
     margin-top: 66.66666666vh;
 }
 
-.menu_button_6{
+.logout{
     background-color: #7d252a;
     margin-left: 50%;
     margin-top: 66.66666666vh;
