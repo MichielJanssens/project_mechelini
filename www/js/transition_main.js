@@ -7,13 +7,26 @@ $( document ).ready(function() {
             height: '100vh',
             marginTop: '0',
             marginLeft: '0'
-        });
+        }, 500);
         $(this).find('p').animate({
             transition: '0.3s',
             opacity: '0'
-        });
-        setTimeout(function() {
-            window.location.href = "profile.html";
-        }, 1000);
+        }, 500);
+
+        console.log($(this).attr('class'));
+        var className = $(this).attr('class');
+        switch(className) {
+            case 'menu_button logout':
+                setTimeout(function () {
+                    window.location.href = "index.html";
+                }, 500);
+                break;
+
+            default:
+                setTimeout(function () {
+                    window.location.href = "profile.html";
+                }, 500);
+                break;
+        }
     });
 });
